@@ -1,4 +1,25 @@
-.background-style {
-  background-color: rgba(25,48,154,0.2);
+.table-container {
+  margin: 0 auto; /* Centra horizontalmente */
+  width: 50%; /* Ancho de la tabla */
 }
 
+table {
+  width: 100%; /* Ocupa todo el ancho del contenedor */
+  border-collapse: collapse; /* Combina los bordes de las celdas */
+  background-color: rgba(25,48,154,0.2); /* Estilo de fondo con transparencia */
+}
+
+td, th {
+  border: 1px solid black; /* Borde de las celdas */
+  padding: 8px; /* Espaciado interno de las celdas */
+  text-align: center; /* Centra el contenido dentro de las celdas */
+}
+
+.background-style {
+  background-color: rgba(25,48,154,0.2); /* Estilo de fondo */
+}
+
+.tablita {
+  margin: 0 auto; /* Centra horizontalmente */
+  width: 50%; /* Ancho de la tabla */
+}
